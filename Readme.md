@@ -1,9 +1,8 @@
 # Exploratory Data Analysis on UN Refugee Data
 
 This project explores **global refugee data** collected by the United Nations High Commissioner for Refugees (UNHCR).  
-The goal is to walk through the **Exploratory Data Analysis (EDA)** process, from cleaning and transformation to visualization and insight generation, while understanding global displacement patterns and host-country impacts.
+The goal is to walk through the **Exploratory Data Analysis (EDA)** process, from data cleaning and transformation to visualization and insight generation, while understanding global displacement patterns and the impacts on host countries.
 
----
 
 ## Dataset Overview
 
@@ -18,7 +17,6 @@ The dataset provides **annual statistics on refugees and refugee-like population
 
 It serves as a valuable resource for analyzing humanitarian aid distribution, policy efficiency, and global refugee trends.
 
----
 
 ## Feature Description
 
@@ -33,7 +31,6 @@ It serves as a valuable resource for analyzing humanitarian aid distribution, po
 | `total_refugees_asylum` | Refugees and refugee-like individuals in asylum countries |
 | `host_country_administration_cost` | Estimated administrative cost for the host country |
 
----
 
 ## EDA Objectives
 The main aim of this EDA is to:
@@ -44,7 +41,6 @@ The main aim of this EDA is to:
 5. Explore efficiency in refugee assistance  
 6. Understand how refugee numbers have evolved over time  
 
----
 
 ## Data Cleaning Steps Involved
 
@@ -54,7 +50,6 @@ The main aim of this EDA is to:
 - Handled missing and non-numeric values in numeric columns  
 - Standardized datatypes for numerical consistency  
 
----
 
 ## Key Explorations
 
@@ -63,7 +58,6 @@ The main aim of this EDA is to:
 - **Geospatial Visualization**: Global refugee distribution using choropleth maps  
 - **Comparative Analysis**: Top host countries by cost and assistance efficiency  
 
----
 
 ## Insights
 
@@ -72,7 +66,6 @@ The main aim of this EDA is to:
 - Strong **positive correlation** exists between the number of refugees and administrative cost — higher refugee volumes generally mean higher expenses.  
 - However, **cost-efficiency varies**: some countries manage large refugee populations with relatively lower costs, possibly due to efficient systems or external support.  
 
----
 
 ## Recommendations
 
@@ -90,7 +83,6 @@ The main aim of this EDA is to:
 - Efficiency isn’t about spending less — it’s about spending **wisely per refugee**.  
 - Insights like **cost per assisted refugee** can guide fairer humanitarian budgeting and strategic support.
 
----
 
 ## Tools Used
 
@@ -98,7 +90,7 @@ The main aim of this EDA is to:
   - `pandas`, `numpy` for data wrangling  
   - `matplotlib`, `seaborn`, `plotly` for visualizations  
 - **Jupyter Notebook** for EDA documentation and reproducibility
-- NB: Libraries can be install using the requirement.txt file.
+- NB: Libraries can be installed using the requirement.txt file.
 
 ---
 
@@ -109,11 +101,10 @@ The main aim of this EDA is to:
 - Global Refugee Distribution (Choropleth Map)  
 - Host Country Administration Costs  
 
----
 
 ## Conclusion
 
-This analysis highlights how **refugee management varies widely across nations**,shaped by economic strength, international aid, and administrative efficiency.  
+This analysis highlights how **refugee management varies widely across nations**, shaped by economic strength, international aid, and administrative efficiency.  
 Data-driven insights like these can help policymakers, NGOs, and researchers **allocate resources more equitably** and design **sustainable humanitarian strategies**.
 
 ---
